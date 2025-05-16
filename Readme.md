@@ -80,14 +80,7 @@ This project implements a USSD-style menu interface in Node.js for managing simp
    }
    ```
 
-3. Create a `.eslintignore` file:
-
-   ```gitignore
-   node_modules/
-   dist/
-   ```
-
-4. Add scripts in `package.json`:
+3. Add scripts in `package.json`:
 
    ```json
    "scripts": {
@@ -115,7 +108,6 @@ Follow the on-screen instructions:
 
 - **ussd.js**: Full implementation of menus and USSD logic
 - **.eslintrc.json**: ESLint configuration file
-- **.eslintignore**: Files to ignore during linting
 
 ## Naming Conventions
 
